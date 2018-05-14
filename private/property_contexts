@@ -2,6 +2,7 @@
 # property service keys
 #
 #
+adb.network.port        u:object_r:adbtcp_prop:s0
 net.rmnet               u:object_r:net_radio_prop:s0
 net.gprs                u:object_r:net_radio_prop:s0
 net.ppp                 u:object_r:net_radio_prop:s0
