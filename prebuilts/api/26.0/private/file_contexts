@@ -537,3 +537,6 @@
 /mnt/user(/.*)?             u:object_r:mnt_user_file:s0
 /mnt/runtime(/.*)?          u:object_r:storage_file:s0
 /storage(/.*)?              u:object_r:storage_file:s0
+
+# OTA packages
+/data/updates(/.*)? u:object_r:ota_package_file:s0
